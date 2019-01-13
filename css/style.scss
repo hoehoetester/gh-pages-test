@@ -1,0 +1,18 @@
+@import "./variables";
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: $font-color;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: ivory;
+  background: url("../images/image001.jpg") no-repeat center;
+  background-size: cover;
+}
